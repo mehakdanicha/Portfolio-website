@@ -1,0 +1,58 @@
+/* Home component specific styles for black / blue theme */
+
+#home h2 {
+    color: #e6eef8;
+}
+
+#home p {
+    color: rgba(230, 238, 248, 0.88);
+    line-height: 1.7;
+}
+
+.hero-left {
+    padding-right: 1.25rem;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.hero-actions .btn {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.hero-intro {
+    margin-top: .6rem;
+}
+
+.typing-highlight {
+    font-weight: 800;
+    color: var(--primary);
+    background: rgba(14, 165, 255, 0.04);
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.hero-image {
+    max-width: 520px;
+    border-radius: 14px;
+    display: block;
+    margin: auto;
+}
+
+.hero-sub {
+    margin-top: .8rem;
+}
+
+.home-cta {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}

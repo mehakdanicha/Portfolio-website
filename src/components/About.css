@@ -1,0 +1,38 @@
+
+.about-wrap { display:flex; gap:1.25rem; align-items:flex-start; }
+.about-card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.06)); padding:1.25rem; border-radius:12px; border:1px solid rgba(255,255,255,0.03); box-shadow: 0 10px 30px rgba(2,6,23,0.5); }
+.about-title { color:#e6eef8; font-weight:700; font-size:1.25rem; }
+.about-text { color: rgba(230,238,248,0.9); line-height:1.7; }
+
+.skills-pill { padding:.6rem .9rem; border-radius:10px; background: rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.03); color:#e6eef8; box-shadow: 0 6px 20px rgba(2,6,23,0.45); }
+
+/* Skill item entrance animation and hover effects */
+.skills-container .skill-item { 
+	opacity: 0;
+	transform: translateY(18px) scale(.99);
+	animation: skillFadeUp 600ms cubic-bezier(.22,.9,.35,1) forwards;
+	transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.skills-container .skill-item:hover {
+	transform: translateY(-6px) scale(1.02);
+	box-shadow: 0 14px 36px rgba(2,6,23,0.6);
+}
+
+@keyframes skillFadeUp {
+	from { opacity: 0; transform: translateY(18px) scale(.99); }
+	to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Staggered delays for a nice entrance */
+.skills-container .skill-item:nth-child(1){ animation-delay: 0.05s }
+.skills-container .skill-item:nth-child(2){ animation-delay: 0.10s }
+.skills-container .skill-item:nth-child(3){ animation-delay: 0.15s }
+.skills-container .skill-item:nth-child(4){ animation-delay: 0.20s }
+.skills-container .skill-item:nth-child(5){ animation-delay: 0.25s }
+.skills-container .skill-item:nth-child(6){ animation-delay: 0.30s }
+.skills-container .skill-item:nth-child(7){ animation-delay: 0.35s }
+.skills-container .skill-item:nth-child(8){ animation-delay: 0.40s }
+.skills-container .skill-item:nth-child(9){ animation-delay: 0.45s }
+.skills-container .skill-item:nth-child(10){ animation-delay: 0.50s }
+.skills-container .skill-item:nth-child(11){ animation-delay: 0.55s }
+
