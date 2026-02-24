@@ -10,7 +10,7 @@ import ss2 from './ss2.PNG'
 import ss3 from './ss3.PNG'
 import ss4 from './ss4.PNG'
 import ss5 from './ss5.PNG'
-import ss6 from './ss6.PNg'
+import ss6 from './ss6.PNG'
 const projects = [
     {
       id: 1,
