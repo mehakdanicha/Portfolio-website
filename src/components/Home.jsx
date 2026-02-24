@@ -67,7 +67,7 @@ const Home = () => {
                 Projects
               </Link>
               <a
-                href="/reactjs-cv.pdf" // path to your resume file in the public folder
+                href="/Mehak_Dayalal_Frontend_Developer-Cv.pdf" // path to your resume file in the public folder
                 download="Mehak_Resume.pdf" // Name the downloaded file
                 className="bg-green-600  text-white px-10 py-5 rounded-lg shadow-md font-bold cursor-pointer hover:bg-green-700 btn btn-resume"
               >

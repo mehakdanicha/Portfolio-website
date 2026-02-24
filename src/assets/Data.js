@@ -1,16 +1,16 @@
 // src/data.js
-import employeepage from '../assets/employee.png'
-import addemployee from '../assets/Add-Employee.PNG'
-import dashboard from '../assets/Dashboard.PNG'
-import busniesslanding from '../assets/busniesslanding.png'
-import graphpage from '../assets/graphpage.png'
-import busniess from '../assets/busniess.png'
-import busniess2 from '../assets/busniess2.png'
-import ss2 from '../assets/ss2.png'
-import ss3 from '../assets/ss3.png'
-import ss4 from '../assets/ss4.png'
-import ss5 from '../assets/ss5.png'
-import ss6 from '../assets/ss6.png'
+import employeepage from './employee.png'
+import addemployee from './Add-Employee.PNG'
+import dashboard from './Dashboard.PNG'
+import busniesslanding from './busniesslanding.png'
+import graphpage from './graphpage.png'
+import busniess from './busniess.PNG'
+import busniess2 from './busniess2.PNG'
+import ss2 from './ss2.PNG'
+import ss3 from './ss3.PNG'
+import ss4 from './ss4.PNG'
+import ss5 from './ss5.PNG'
+import ss6 from './ss6.PNg'
 const projects = [
     {
       id: 1,
